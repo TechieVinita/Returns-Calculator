@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returns Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="outer-container">
+        <h1>Returns Calculator App</h1>
+
+        <div class="inner-container">
+            <div class="box input" id="capital">
+                <span>Capital: </span>
+                <input type="number" placeholder="Capital"/>
+            </div>
+            <div class="box input" id="years">
+                <span>Years: </span>
+                <input type="number" placeholder="Years"/>
+            </div>
+            <div class="box input" id="interest">
+                <span>Interest: </span>
+                <input type="number" placeholder="Interest"/>
+            </div>
+            <div class="box" id="output">
+                Net Portfolio Value: 
+            </div>
+            <div class="box button calculateButton" onclick="calculateNetPortfolioValue()">
+                Calculate
+            </div>
+            <div class="box button resetButton" onclick="reset()">
+                Reset
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
